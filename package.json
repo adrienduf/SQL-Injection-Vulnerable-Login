@@ -1,0 +1,19 @@
+{
+  "name": "sql-injection-vulnerable-login",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Intentionally vulnerable login page for security demos",
+  "scripts": {
+    "test": "jest --coverage --coverageReporters=lcov --coverageReporters=text"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "*.js",
+      "!*.test.js"
+    ]
+  }
+}
