@@ -33,6 +33,6 @@ jobs:
         with:
           name: coverage
           path: coverage
-      - uses: AikidoSec/code-coverage-github-action@v1
+      - uses: AikidoSec/code-coverage-github-action@af64fbf145a1d80a532f18d7bb75daff398b7d00 # v2.1.0
         with:
-          lcov-file-paths: coverage/lcov.info
+          file-paths: coverage/lcov.info
